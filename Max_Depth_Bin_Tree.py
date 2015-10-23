@@ -11,6 +11,7 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
+        print "here"
         return 1 + max(map(self.maxDepth, (root.left, root.right))) if root else 0     
 
 root=TreeNode("Root")
